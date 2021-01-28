@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+header{
+    height: 20vh;
+    display: block;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #f8f8f8;
+}
+.nav ul{
+    
+    font-size: 1.5rem;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10rem;
+
+}
+.nav ul li{
+    margin: 1rem;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #737373;
+}
+.icon-siguenos li{
+    width: 5rem;
+}
+.nav ul .icon-siguenos {
+    width: 10rem ;
+}
+.nav ul .icon-siguenos .icon-f {
+    
+}
+.icon-siguenos img{
+    width: 1.2rem;
+    justify-content: center;
+}
