@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.head{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+}
+.cara{
+    width: 100px;
+    height: 200px;
+    background: #f6c09c;
+    position:relative;
+    border-radius: 50px;
+
+}
+.ojo-derecho{
+    width: 20px;
+    height: 10px;
+    background: white;
+    position:absolute;
+    border-radius: 10px;
+    left: 355px;
+}
+.ojo-izquierdo{
+    width: 20px;
+    height: 10px;
+    background: white;
+    position:absolute;
+    border-radius: 10px;
+    left: 315px;
+}
+.boca{
+    width: 40px;
+    height: 30px;
+    background: white;
+    position:absolute;
+    left: 325px;
+    top:505px;
+    border-bottom: 20px;
+}
